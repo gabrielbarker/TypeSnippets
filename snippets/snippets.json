@@ -1,0 +1,85 @@
+{
+  "export default": {
+    "prefix": ["xd"],
+    "body": ["export default "],
+    "description": "The keywords 'export default'"
+  },
+
+  "export default class": {
+    "prefix": ["xdc"],
+    "body": [
+      "export default class ${1:ClassName} {",
+      "\tconstructor(${2:params}) {",
+      "\t\t$0",
+      "\t}",
+      "}"
+    ],
+    "description": "A default class export"
+  },
+
+  "export default class alt": {
+    "prefix": ["xdc-alt"],
+    "body": [
+      "class ${1:ClassName} {",
+      "\tconstructor(${2:params}) {",
+      "\t\t$0",
+      "\t}",
+      "}",
+      "export default ${0:ClassName};"
+    ],
+    "description": "A default class export, where the export statement proceeds the declaration."
+  },
+
+  "export default interface": {
+    "prefix": ["xdi"],
+    "body": ["export default interface ${1:InterfaceName} {", "\t${0:...}", "}"],
+    "description": "A default interface export"
+  },
+
+  "export default interface alt": {
+    "prefix": ["xdi-alt"],
+    "body": [
+      "interface ${1:InterfaceName} {",
+      "\t${0:...}",
+      "}",
+      "export default ${1:InterfaceName};"
+    ],
+    "description": "A default interface export, where the export statement proceeds the declaration."
+  },
+
+  "export enum": {
+    "prefix": ["xe"],
+    "body": ["export enum ${1:EnumName} {", "\t${0:...}", "}"],
+    "description": "An exported enum"
+  },
+
+  "enum": {
+    "prefix": ["xe"],
+    "body": ["enum ${1:EnumName} {", "\t${0:...}", "}"],
+    "description": "An exported enum"
+  },
+
+  "import default": {
+    "prefix": ["id"],
+    "body": ["import ${1:ImportName} from \"${2:ModuleName}\";"],
+    "description": "A default import statement"
+  },
+
+  "arrow function": {
+    "prefix": ["arrow"],
+    "body": ["(${1:params}) => {", "${0:...}", "}"],
+    "description": "A simple arrow function"
+  },
+
+  "inline arrow function": {
+    "prefix": ["arrow-inline"],
+    "body": ["(${1:params}) => ${0:...}"],
+    "description": "A simple inline arrow function"
+  },
+
+  "generic function": {
+    "prefix": ["generic"],
+    "body": ["function ${1:functionName}<${2:typeParameter}>(${3:params}) {", "\t${0:...}", "}"],
+    "description": "A simple inline arrow function"
+  }
+}

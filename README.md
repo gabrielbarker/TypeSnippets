@@ -1,6 +1,6 @@
 # TypeSnippets
 
-A selection of useful typescript snippets, focusing on commonly used, verbose snippets.
+A selection of useful TypeScript snippets, focusing on commonly used, verbose snippets.
 
 ## Snippets
 

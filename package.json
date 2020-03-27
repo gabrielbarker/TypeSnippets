@@ -2,7 +2,7 @@
   "name": "typesnippets",
   "displayName": "TypeSnippets",
   "description": "A selection of useful TypeScript snippets",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "icon": "images/logo.png",
   "galleryBanner": {
     "color": "#8270fe",

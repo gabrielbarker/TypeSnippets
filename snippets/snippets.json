@@ -54,14 +54,20 @@
   },
 
   "enum": {
-    "prefix": ["xe"],
-    "body": ["enum ${1:EnumName} {", "\t${0:...}", "}"],
+    "prefix": ["xe-alt"],
+    "body": ["enum ${1:EnumName} {", "\t${0:...}", "}", "export ${1:EnumName};"],
     "description": "An exported enum"
   },
 
+  "import": {
+    "prefix": ["imp"],
+    "body": ["import ${1:ModuleName} from \"${1:ModuleName}\";"],
+    "description": "A default import statement"
+  },
+
   "import default": {
-    "prefix": ["id"],
-    "body": ["import ${1:ImportName} from \"${2:ModuleName}\";"],
+    "prefix": ["impd"],
+    "body": ["import { ${1:elements} } from \"${2:ModuleName}\";"],
     "description": "A default import statement"
   },
 

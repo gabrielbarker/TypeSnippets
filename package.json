@@ -19,6 +19,13 @@
   "categories": [
     "Snippets"
   ],
+  "keywords": [
+    "code",
+    "snippet",
+    "snippets",
+    "ts",
+    "typescript"
+  ],
   "contributes": {
     "snippets": [
       {

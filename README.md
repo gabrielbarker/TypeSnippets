@@ -1,4 +1,4 @@
-# TypeSnippets
+# TypeSnippets [![Version](https://vsmarketplacebadge.apphb.com/version/gabrielbarker.typesnippets.svg)](https://marketplace.visualstudio.com/items?itemName=gabrielbarker.typesnippets)
 
 A selection of useful TypeScript snippets, focusing on commonly used, verbose snippets.
 
